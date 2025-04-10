@@ -10,6 +10,7 @@ import Analysis from "./pages/Analysis";
 import Watchlist from "./pages/Watchlist";
 import Portfolio from "./pages/Portfolio";
 import Assistant from "./pages/Assistant";
+import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/watchlist" element={<Watchlist />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/assistant" element={<Assistant />} />
+          <Route path="/settings" element={<Settings />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
