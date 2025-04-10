@@ -279,7 +279,7 @@ const Settings = () => {
                   {alerts.length === 0 ? (
                     <div className="text-center py-6 text-gray-500">
                       <BellRing className="h-12 w-12 mx-auto mb-3 text-gray-300" />
-                      <p>You don't have any active alerts</p>
+                      <p>You don&apos;t have any active alerts</p>
                       <p className="text-sm mt-1">Create one using the form above</p>
                     </div>
                   ) : (
